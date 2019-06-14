@@ -1,0 +1,17 @@
+<view class='floor'>
+  <view class='floor_top'>
+     
+     <text>{{title}}</text>
+     
+  </view>
+  <view class='goods'>
+     <view class='goodsWarp' wx:for="{{floorgoods}}"> 
+       <image src="{{imgurl+item.images}}"></image>
+       <text>{{item.prod_short_name}}</text>
+       <view class='textwarp'>
+       <text style="color:red">{{item.market_price}}</text>
+       <text>{{item.pack_unit}}</text>
+       </view>
+     </view>
+  </view>
+</view>

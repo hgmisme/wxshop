@@ -1,0 +1,98 @@
+/* pages/login/login.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #fff;
+  padding: 0 44rpx;
+
+}
+.container .imglogo{
+  width: 258rpx;
+  height: 176rpx;
+  margin: 0 auto;
+
+}
+.container .loginType{
+  margin: 0 auto;
+  width: 80%;
+  /* height: 55rpx; */
+  margin-top: 70rpx; 
+  font-size: 34rpx;
+}
+#left{
+  float: left;
+  height: 55rpx;
+  line-height: 50rpx;
+  /* width: 70rpx; */
+  
+
+}
+#right{
+  /* width: 70rpx; */
+  float: right;
+  height: 55rpx;
+  line-height: 50rpx;
+}
+.inputOne{
+  margin-top: 66rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.inputOne input{
+  height: 74rpx;
+  border-bottom: 1px solid #ccc; 
+}
+.inputOne input:nth-child(2){
+ margin-top: 32rpx;
+}
+
+.inputTwo input{
+  margin-top: 66rpx;
+  height: 74rpx;
+  border-bottom: 1px solid #ccc; 
+}
+.border{
+  border-bottom: 2px solid #8B58ED;
+  color: #8B58ED;
+}
+.display{
+  display: none;
+}
+.inputTwo input:nth-child(2){
+ margin-top: 32rpx;
+}
+.button-one{
+  color: white;
+  margin-top: 212rpx;
+  /* background: #B99CF4; */
+  width: 100%;
+  height: 84rpx;
+  border-radius: 84rpx;
+  line-height: 84rpx;
+}
+.button-one-color{
+  color: white;
+  margin-top: 212rpx;
+  background: #8B58ED;
+  width: 100%;
+  height: 84rpx;
+  border-radius: 84rpx;
+  line-height: 84rpx;
+}
+
+.color{
+  background: #8B58ED;
+}
+.button-two{
+  color: white;
+  margin-top: 72rpx;
+  background: #FFF;
+  color: #8B58ED;
+  border:0.5px solid #8B58ED;
+  width: 100%;
+  height: 84rpx;
+  border-radius: 84rpx;
+  line-height: 84rpx;
+}

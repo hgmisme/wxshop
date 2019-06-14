@@ -1,0 +1,40 @@
+/* pages/floorgood/floorgood.wxss */
+.floor{
+  width: 100%;
+}
+.floor_top{
+  /* width: 750rpx; */
+  padding: 0 20rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+.floor_top .icon{
+  width: 20rpx;
+  height: 35rpx;
+}
+.floor_top view{
+ width: 50rpx;
+}
+.goods{
+  /* width: 100%; */
+  /* display:  flex; */
+  /* flex-wrap: wrap; */
+}
+.goodsWarp{
+  width:50%;
+float:left;
+padding:20rpx;
+box-sizing:border-box;
+
+}
+.goodsWarp image{
+  width: 344rpx;
+
+}
+.textwarp{
+  display: flex;
+  justify-content: space-between
+}

@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="warpcontainer">
+  <view class='index-top'>
+    <view class='index-top-left'>
+     <image src='../../assets/images/icon1.png'></image>
+      <input placeholder="这是一个可以自动聚焦的input" auto-focus/>
+    </view>
+    <image src='../../assets/images/icon2.png' class='index-top-right'></image>
+  </view>
+  <view class='swiper'>
+   <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{swperImg}}">
+    <swiper-item class="swiper-item">
+      <image src="{{imgurl+item.img_url}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+  </view>
+ <view class='native'>
+     <view class='nativeitem' wx:for="{{nativeimg}}" wx:key="index" >
+          <image src='{{imgurl+ item.img_url}}' ></image>
+          <text>{{item.hotkey_title}}</text>
+      </view>
+ </view>
+ <!-- 楼层 -->
+ <view class='floor'>
+     <view class='flooritem' wx:for="{{floordata}}" wx:key="index">
+       <view class='floorText'>
+         <text style='font-size:34rpx;'>{{item.floor_title}}</text>
+         <text style='font-size:24rpx;'>{{item.sub_title}}</text>
+       </view>
+       <image src='{{imgurl+ item.img_url}}' data-image="{{item}}" bindtap='floorgood'></image>
+     </view>
+ </view>
+</view>

@@ -1,0 +1,81 @@
+  .mint-swipe{
+    width:7.5rem;
+    height:3.6rem;
+    .mint-swipe-indicator{
+      width:0.4rem;
+      height:0.06rem;
+      // background:rgba(255,255,255,1);
+      background:#e5e5e5;
+      border-radius:0.02rem;
+      opacity:1;
+      &.is-active{
+        // background:rgba(243,156,174,1);
+        background: #EA5978;
+        opacity:1;
+      }
+    }
+  }
+  .mint-searchbar{
+    background:#fff;
+    padding:0.2rem;
+  }
+  .mint-searchbar-inner{
+    height:0.72rem;
+    line-height:0.72rem;
+    background:rgba(247,247,247,1);
+    border-radius:4px;
+    padding:0 0.2rem;
+
+  }
+  .mint-searchbar-core{
+    background:none;
+    }
+  .mint-searchbar-inner .mintui-search{
+    margin-right:0.2rem;
+    }
+    .mint-searchbar-cancel{
+    color:rgba(3,3,3,1);
+    }
+    .mint-indicator-wrapper{
+      .mint-indicator-spin{
+        display: inline-block;
+        text-align: center;
+      .mint-spinner-snake{
+        border-top-color:red !important ;
+        border-left-color:red !important ;
+        border-bottom-color:red !important ;
+        height:32px;
+        width: 32px;
+      }
+    }
+    }
+    .mint-msgbox{
+      .mint-msgbox-btns{
+        .mint-msgbox-cancel{
+          font-size: 0.4rem;
+          color: #26a2ff;
+        }
+        .mint-msgbox-confirm{
+          font-size: 0.4rem;
+          color: #26a2ff;
+        }
+      }
+    }
+    
+    // .mint-spinner-fading-circle circle-color-9{
+    //   width: 40px !important;
+    //   height: 40px  !important;
+    // }
+    // .mint-indicator-wrapper{
+    //   color: #EA5978 !important;
+    // }
+    // .mint-indicator-wrapper{
+    //   width: 1.5rem;
+    //   height: 1.5rem;
+    //   background: #e5e5e5 ;
+    // }
+    .van-collapse-item__content{
+      padding:0  !important ;
+    }
+
+   

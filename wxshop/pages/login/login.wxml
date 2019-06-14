@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class='container' >
+  <image src='../../assets/images/logo.png' class='imglogo'></image>
+  <view class='loginType'>
+       <view  id="left" class='left border' catchtap='tab'class="{{i==0?'border':''}}">账号密码登录</view>
+       <view id='right' catchtap='tab'class="{{i==1?'border':''}}">手机验证码登录</view>
+  </view>
+
+  
+
+  <view class="{{i==0?'inputOne':'display'}}">
+       <input bindinput='watchPassWord' placeholder='请输入账号'></input>
+       <input placeholder='请输入密码'></input>
+  </view>
+
+  
+  <view  class="{{i==1?'inputTwo':'display'}}">
+       <input placeholder='请输入手机号码'></input>
+       <input placeholder='请输入密码'></input>
+  </view>
+  <button class='button-one' style='background:{{bacolor}}' catchtap='goto'>点击登录</button>
+  <!-- <button class='button-one-color' wx:if="{{show=='1'}}">点击登录</button> -->
+  <button class='button-two'>申请入驻</button>
+</view>

@@ -1,0 +1,100 @@
+/**index.wxss**/
+.warpcontainer{
+  width: 100%;
+  height: 100%;
+  background: #F7F7F7;
+}
+.index-top{
+  padding: 16rpx 94rpx 16rpx 28rpx;
+  width: 750rpx;
+  height: 72rpx;
+  
+}
+
+input { outline: none;border: none;list-style: none }
+.index-top-left{
+ width: 628rpx;
+ height: 72rpx;
+ position: relative;
+ background: #F7F7F7;
+ display: flex;
+ align-items: center;
+ float: left;
+ background: white;
+}
+.index-top-left image{
+  width: 32rpx;
+  height: 32rpx;
+  /* position: absolute; */
+  /* margin-top: 20rpx; */
+  margin-left: 20rpx;
+  float: left;
+}
+.index-top-left input{
+  float: left;
+  /* margin-top: 20rpx; */
+  margin-left: 20rpx;
+  font-size: 26rpx;
+}
+.index-top-right{
+  width: 38rpx;
+  height: 38rpx;
+  margin-top: 20rpx;
+  float: left;
+  margin-left: 28rpx;
+}
+.swiper{
+  width: 750rpx;
+  height: 360rpx;
+}
+swiper{
+  height: 360rpx;
+}
+.swiper-item{
+  width: 750rpx;
+  height: 360rpx;
+}
+.swiper image{
+ width: 750rpx;
+ height: 360rpx;
+}
+.native{
+  margin-top: 20rpx;
+}
+.nativeitem{
+  float: left;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.nativeitem image{
+  width: 108rpx;
+  height: 108rpx;
+}
+.nativeitem text{
+  font-size: 30rpx;
+}
+.floor{
+  width: 100%;
+  margin-top: 16rpx;
+}
+.flooritem{
+  width: 100%;
+  background: white;
+}
+.floorText{
+  /* width: 100%; */
+  display: flex;
+  justify-content:space-between;
+  padding: 0 20rpx;
+  height: 96rpx;
+  align-items: center;
+}
+.flooritem image{
+  width: 750rpx;
+  height: 280rpx;
+
+}
